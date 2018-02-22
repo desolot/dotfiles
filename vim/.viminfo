@@ -12,6 +12,7 @@ $
 
 # Command Line History (newest to oldest):
 :q
+:Q
 :wq
 
 # Search String History (newest to oldest):
@@ -25,38 +26,48 @@ $
 
 # Registers:
 ""0	LINE	0
+	
+"1	LINE	0
+	
+"2	LINE	0
 	749
 <ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQFaldFBYtUoq33oDbJ4f4OyJtbDcbf/MPMtKiMjwEgSOPu4O9ccviM4meCQ7EfTN9Vwt5IykQ3LJYKy6ygFqo/W7qfgpkyUlNY/HGkOTO7ke9o8AAo85yKNq4M59X49VpzvenNUMmRCYDuYfks503mM47hMPc1vXoXewbTeGlso75sEgQV0EMSuJOQcRcTczAYSp9+5hzDGE79CCh1QaKqGSGo1plIV/WsdymTfgjikZ+EaTJK3bHwJk2tGJ7CY1iZb+7Y8GwQ3DQmGf2FUC84fWTIrqyzdQ10sEZQsXg+H4KOvwucSCOvmcKYf/2HLErJi9iv1ToSHU6gq2gUgLyHoEbj7AXj6Nipqll04/d/HIPP7BO+Q2oTszEeOoQo+C1g9Kt2QLHAdwGFlyOeVZlqr9Tb4BN8wiHQWj309ANxtSCmyGRkbSOH19r1gsFXqifK0QMuiulMABE/1MkJCPrpsFxhHL53iP1bsQ/v3PXaGouQIH97vMmoNuguer/mhBt50GtFdjIszHoB6IvIsXmSXTuDFXqA7l1MsBnsEhSfR/RIS1Xkw/Vm8YYgCRfIrkqnNmKnbWzUwB3qfc2MN5NE9Vd3sy4BZXypY9um9kLOUZB0SDF/Hw5HdBKxw2UtTQ+niyJM9am14E/QZhKjPUhaiPTyneJ/b+7flo6UviB6Q== moneim.adam@gmail.com
-"1	LINE	0
-	# Add a bunch more of your favorite packages!
-"2	LINE	0
-	unsetopt BG_LINE
 "3	LINE	0
-	
+	# Add a bunch more of your favorite packages!
 "4	LINE	0
-	
+	unsetopt BG_LINE
 "5	LINE	0
 	
 "6	LINE	0
 	
 "7	LINE	0
-	j
+	
 "8	LINE	0
-	O
+	
+"9	LINE	0
+	j
 
 # File marks:
-'0  1  0  ~/.vim
-'1  10  5  ~/.local
-'2  81  0  ~/.zcompdump
-'3  20  0  ~/.profile
-'4  1  0  ~/.viminfo
-'5  2  0  ~/.gitconfig
-'6  1  0  ~/.ssh/id_rsa.pub
-'7  16  0  ~/.zshrc
-'8  14  39  ~/.zshrc
-'9  2  0  ~/.zshrc
+'0  1  7  ~/.nano
+'1  1  30  ~/dotfiles/.git/COMMIT_EDITMSG
+'2  4  13  ~/.gitconfig
+'3  44  15  ~/.zshrc
+'4  45  15  ~/.zshrc
+'5  1  0  ~/.vim
+'6  10  5  ~/.local
+'7  81  0  ~/.zcompdump
+'8  20  0  ~/.profile
+'9  1  0  ~/.viminfo
 
 # Jumplist (newest first):
+-'  1  7  ~/.nano
+-'  1  30  ~/dotfiles/.git/COMMIT_EDITMSG
+-'  4  13  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  44  15  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  45  15  ~/.zshrc
+-'  2  0  ~/.zshrc
 -'  1  0  ~/.vim
 -'  10  5  ~/.local
 -'  81  0  ~/.zcompdump
@@ -65,40 +76,17 @@ $
 -'  1  0  ~/.profile
 -'  1  0  ~/.viminfo
 -'  2  0  ~/.gitconfig
--'  1  0  ~/.gitconfig
 -'  1  0  ~/.ssh/id_rsa.pub
--'  16  0  ~/.zshrc
--'  1  0  ~/.zshrc
--'  14  39  ~/.zshrc
--'  2  0  ~/.zshrc
+-'  17  0  ~/.zshrc
+-'  15  39  ~/.zshrc
 -'  3  0  ~/.zshrc
--'  29  0  ~/.zshrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.zshrc
--'  8  0  ~/.zshrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  26  0  ~/.zshrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  4  0  ~/.zshrc
--'  5  0  ~/.zshrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  30  0  ~/.zshrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
+-'  8  0  ~/.zshrc
 -'  9  0  ~/.zshrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
@@ -109,23 +97,8 @@ $
 -'  1  0  ~/.bashrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
+-'  5  0  ~/.zshrc
 -'  6  0  ~/.zshrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  7  0  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
 -'  7  0  ~/.bashrc
@@ -135,6 +108,7 @@ $
 -'  1  0  ~/.bashrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
+-'  10  0  ~/.zshrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
 -'  7  0  ~/.bashrc
@@ -144,8 +118,37 @@ $
 -'  1  0  ~/.bashrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
+-'  7  0  ~/.zshrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  32  0  ~/.zshrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  29  0  ~/.zshrc
 -'  7  0  ~/.bashrc
 -'  1  0  ~/.bashrc
 -'  7  0  ~/.bashrc
@@ -158,6 +161,50 @@ $
 
 # History of marks within files (newest to oldest):
 
+> ~/dotfiles/.git/COMMIT_EDITMSG
+	"	1	30
+	^	1	31
+	.	1	31
+	+	1	14
+	+	1	31
+
+> ~/.gitconfig
+	"	4	13
+	^	4	14
+	.	4	14
+	+	4	14
+
+> ~/.zshrc
+	"	44	15
+	^	44	16
+	.	44	15
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	29	0
+	+	30	0
+	+	30	0
+	+	28	10
+	+	30	0
+	+	4	0
+	+	5	0
+	+	3	0
+	+	2	0
+	+	2	27
+	+	2	16
+	+	2	0
+	+	16	0
+	+	15	39
+	+	16	76
+	+	1	16
+	+	42	0
+	+	45	22
+	+	46	0
+	+	46	0
+	+	44	15
+
 > ~/.zcompdump
 	"	81	0
 
@@ -167,36 +214,8 @@ $
 > ~/.viminfo
 	"	1	0
 
-> ~/.gitconfig
-	"	2	0
-
 > ~/.ssh/id_rsa.pub
 	"	1	0
-
-> ~/.zshrc
-	"	16	0
-	^	16	0
-	.	15	76
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	28	0
-	+	29	0
-	+	29	0
-	+	27	10
-	+	29	0
-	+	3	0
-	+	4	0
-	+	2	0
-	+	1	0
-	+	1	27
-	+	1	16
-	+	1	0
-	+	15	0
-	+	14	39
-	+	15	76
 
 > ~/.bashrc
 	"	7	0
