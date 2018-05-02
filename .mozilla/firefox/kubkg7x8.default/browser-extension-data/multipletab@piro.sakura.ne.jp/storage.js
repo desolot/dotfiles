@@ -1,0 +1,1 @@
+{"shouldNotifyUpdatedFromLegacyVersion":false,"requestingPermissions":null}
